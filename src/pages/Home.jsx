@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 
 function Home() {
   return (
-    <div style={{ background: '#0A0A0A', minHeight: '100vh' }}>
+    <div style={{ background: '#0A0A0A', minHeight: '100vh', overflowX: 'hidden' }}>
       {/* Noise Overlay */}
       <NoiseOverlay />
 
@@ -119,6 +119,7 @@ function HeroSection() {
 
       {/* Stats - Bottom Right */}
       <div
+        className="stats-container"
         style={{
           position: 'absolute',
           bottom: '80px',

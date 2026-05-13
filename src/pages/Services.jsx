@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function Services() {
   return (
-    <div style={{ background: '#F5F0E8', minHeight: '100vh' }}>
+    <div style={{ background: '#F5F0E8', minHeight: '100vh', overflowX: 'hidden' }}>
       <ServicesHeader />
       <ServiceCards />
       <ProcessTimeline />

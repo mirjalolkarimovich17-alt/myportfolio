@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function Contact() {
   return (
-    <div style={{ background: '#0D0D1A', minHeight: '100vh' }}>
+    <div style={{ background: '#0D0D1A', minHeight: '100vh', overflowX: 'hidden' }}>
       <GridPattern />
       <ContactHero />
       <TelegramCTA />
